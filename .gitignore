@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw dataset
+data/RokomariBG_Dataset/
+
+# Large trained Logistic Regression models
+results/models/model1_logistic_regression.joblib
+results/models/model2_logistic_regression.joblib
+results/models/model3_logistic_regression.joblib
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
